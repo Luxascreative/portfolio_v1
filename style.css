@@ -1,0 +1,130 @@
+/* Typographie*/
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+/* Typographie*/
+
+
+#body{
+    margin : 0;
+    padding : 0;
+}
+#header{
+    background-color : black;
+    color : white;
+    font-size : 20px;
+    padding : 5px 40px;
+    align-items : center;
+    display : flex;
+    justify-content : space-between;
+}
+#nav {
+    padding: 20px;
+    height : 50px;
+    display : flex;
+    gap : 40px;
+    align-items : center;
+
+    
+
+}
+
+.nav-link {
+    color : white;
+    font-size : 16px;
+    text-decoration : none;
+}
+
+#titre {
+    font-size : 20px;
+    font-family : 'Courier New', Courier, monospace;
+}
+
+#maintitre{
+    font-size : 200px;
+    text-align : center;
+    margin : 0;
+    position : relative;
+    top : 30%;
+}
+#bannière{
+    background-color : rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin : 0;
+    height : 750px;
+    align-items: center;
+    gap : 100px;
+}
+#banniere-content {
+    position : relative;
+    gap : 10px;
+}
+#barreseparation{
+    width: 500px; 
+    height: 5px; background-color: rgb(0, 0, 0); 
+    border: none;
+
+}
+#informations-name {
+    position : absolute;
+    bottom : 100px;
+    left : 100px;
+
+}
+#logo-section{
+    background-color : rgb(0, 0, 0);
+    height : 600px
+}
+#sous-titre{
+    color: white;
+    font-size : 50px;
+    text-align : left;
+}
+#logos{
+    display : flex;
+    flex-direction : column;
+    gap : 15px;
+}
+#banniere-heritage{
+    display : none;
+    width : 20%;
+}
+#logo-heritage{
+    display : none;
+    width : 20%;
+}
+#logo-section2{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction : row;
+    gap : 150px;
+}
+#flologo1{
+    width : 12%;
+}
+#flologo2{
+    width : 12%;
+}
+#logohealtheat{
+    height : 17%;
+    width : 17%;
+}
+#logo-lgm{
+    height : 12%;
+    width : 12%;
+}
+
+div{
+    padding: 40px;
+    margin: 0;
+}
